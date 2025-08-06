@@ -49,8 +49,8 @@ const Navbar = () => {
 
             <div className="block sm:hidden">
               <Sheet open={isOpen} onOpenChange={setIsOpen}>
-                <SheetContent className="w-[50%] bg-gradient-to-br from-blue-50 to-purple-100">
-                  <nav className="flex flex-col mt-10 space-y-4 px-3">
+                <SheetContent className="w-[70%] h-[70%] bg-gradient-to-br from-blue-50 to-purple-100">
+                  <nav className="flex flex-col mt-10 space-y-4 px-5">
                     <Link
                       className="font-bold text-gray-700 hover:text-gray-950"
                       href="#features"
