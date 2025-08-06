@@ -8,7 +8,7 @@ import { Sheet, SheetContent } from "./ui/sheet";
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <div className=" sticky top-0 backdrop-blur-3xl bg-gray-100 border border-b-gray-300">
+    <div className="z-50 sticky top-0 backdrop-blur-2xl border border-b-gray-300">
       <div className="container mx-auto px-4 py-3 sm:px-3 sm:py-5">
         <div className="flex items-center justify-between">
           <div>
