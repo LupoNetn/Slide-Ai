@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-purple-50 to-blue-50 py-12 sm:py-20">
       <div className="container mx-auto sm:px-5 text-center">
-        <div className="space-y-6 px-3">
+        <div className="space-y-6 px-3 max-sm:pt-20">
           <Badge variant="outline" className="mx-auto w-fit">
             <Zap className="mr-2 h-4 w-4" />
             <span>AI-Powered Presentations</span>
