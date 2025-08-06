@@ -2,6 +2,7 @@ import React from "react";
 import { Badge } from "./ui/badge";
 import { ArrowBigRight, Zap } from "lucide-react";
 import { Button } from "./ui/button";
+import Link from "next/link";
 
 const Header = () => {
   return (
@@ -30,10 +31,14 @@ const Header = () => {
 
           <div className="w-[90%] mx-auto flex flex-col sm:flex-row items-center justify-center gap-4">
             <Button className="w-full sm:w-auto">
-              Start Creating <ArrowBigRight className="ml-2 h-5 w-5" />
+              <Link href='/dashboard' className="flex items-center">
+               Start Creating <ArrowBigRight className="ml-2 h-5 w-5" />
+              </Link>
             </Button>
             <Button variant="outline" className="w-full sm:w-auto">
-              Watch Demo
+              <Link href='/dashboard' className="flex items-center">
+                Watch Demo
+              </Link>
             </Button>
           </div>
         </div>

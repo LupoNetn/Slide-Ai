@@ -36,7 +36,11 @@ const Navbar = () => {
                 Pricing
               </Link>
               <Button variant="outline">Sign In</Button>
-              <Button variant="default">Get Started</Button>
+              <Button variant="default" className="w-full sm:w-auto">
+                <Link href="/dashboard" className="flex items-center">
+                  Get Started
+                </Link>
+              </Button>
             </nav>
 
             {/* MOBILE NAV */}
@@ -66,8 +70,10 @@ const Navbar = () => {
                     <Button className="w-[70%]" variant="outline">
                       Sign In
                     </Button>
-                    <Button className="w-[70%]" variant="default">
-                      Get Started
+                    <Button variant="default" className="w-full sm:w-auto">
+                      <Link href="/dashboard" className="flex items-center">
+                        Get Started
+                      </Link>
                     </Button>
                   </nav>
                 </SheetContent>

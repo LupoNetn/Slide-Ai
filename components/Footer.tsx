@@ -8,14 +8,15 @@ const Footer = () => {
       <div className="container mx-auto text-center space-y-8">
         {/* Logo & Description */}
         <div className="flex items-center justify-center space-x-3">
-          <div className="w-10 h-10 bg-gradient-to-r from-indigo-500 to-cyan-500 rounded-lg flex items-center justify-center">
-            <Sparkles className="w-5 h-5 text-white" />
+          <div className="bg-gradient-to-br from-blue-600 to-purple-600 px-2 py-1.5 rounded-lg">
+            <Sparkles className="text-white" />
           </div>
           <span className="text-2xl font-bold tracking-tight">SlideAI</span>
         </div>
 
         <p className="text-base sm:text-lg text-slate-600 max-w-2xl mx-auto font-medium">
-          Create <strong>professional presentations</strong> with the power of AI — simple, fast, and stunning.
+          Create <strong>professional presentations</strong> with the power of
+          AI — simple, fast, and stunning.
         </p>
 
         {/* Navigation */}
