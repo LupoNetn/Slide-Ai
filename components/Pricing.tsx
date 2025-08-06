@@ -68,11 +68,13 @@ const Pricing = () => {
   return (
     <section
       id="pricing"
-      className="bg-gradient-to-br from-purple-50 to-blue-100 py-20 px-4"
+      className="bg-gradient-to-br from-purple-50 to-blue-50 py-20 px-4"
     >
       <div className="container mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">Simple Pricing</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4">
+            Simple Pricing
+          </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
             Choose the plan that works best for you and your team
           </p>
@@ -98,7 +100,9 @@ const Pricing = () => {
                   {plan.price.startsWith("$") ? (
                     <>
                       {plan.price.split("/")[0]}
-                      <span className="text-lg font-normal">/{plan.price.split("/")[1]}</span>
+                      <span className="text-lg font-normal">
+                        /{plan.price.split("/")[1]}
+                      </span>
                     </>
                   ) : (
                     plan.price
@@ -108,7 +112,9 @@ const Pricing = () => {
               <CardContent>
                 <ul className="space-y-3 mb-6">
                   {plan.features.map((feature, i) => (
-                    <li key={i} className="flex items-center">✓ {feature}</li>
+                    <li key={i} className="flex items-center">
+                      ✓ {feature}
+                    </li>
                   ))}
                 </ul>
                 <Button className="w-full">{plan.cta}</Button>

@@ -6,7 +6,7 @@ import { Button } from "./ui/button";
 const Header = () => {
   return (
     <>
-      <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-purple-50 to-blue-100">
+      <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-purple-50 to-blue-50">
         <div className="container mx-auto sm:px-5 text-center">
           <div className="space-y-4 px-3">
             <Badge variant="outline">
