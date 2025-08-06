@@ -1,9 +1,14 @@
+import Features from '@/components/Features'
+import Header from '@/components/Header'
+import Pricing from '@/components/Pricing'
 import React from 'react'
 
 const page = () => {
   return (
-    <div>
-      
+    <div className='bg-white'>
+      <Header />
+      <Features />
+      <Pricing />
     </div>
   )
 }
